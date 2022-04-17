@@ -1,0 +1,235 @@
+.background-color{
+    border-radius: 50px;
+    padding: .7720588235em 1.1764705882em;
+    background-color: #14131310; /*faf4f410*/
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.nav-container,
+.header {
+    position: fixed;
+}
+.menu-close,
+.hero__image,
+.hero__content,
+.hero__overlay {
+    position: absolute;
+}
+.menu-list li,
+.category__title,
+.category__name,
+.hero__title,
+.copyright {
+    text-align: center;
+}
+.nav-container.active,
+.hero_link {
+    display: block;
+}
+.hero__subtitle,
+.hero_link,
+.footer-touch button {
+    text-transform: uppercase;
+}
+.hero__image,
+.hero__content,
+.hero__overlay,
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+.hero__image img,
+.category__image img {
+    object-fit: cover;
+}
+.footer-info,
+.footer-touch button {
+    font-family: var(--font-family-1);
+}
+.hero__title,
+.category__title,
+.category__name,
+.footer-info h2 {
+    font-family: var(--font-family-2);
+}
+.category__item>div,
+.category__image img {
+    width: 100%;
+}
+.input:hover,
+.footer-touch button,
+.hero_link:hover {
+    border: 1px solid var(--color-1); 
+}
+.hero_link,
+.footer-touch input {
+    border: 1px solid var(--color-2);
+}
+.footer-info h2,
+.input:hover,
+.menu-close,
+.footer-touch input,
+.footer-touch button {
+    color: var(--color-1);
+}
+.footer-info,
+.footer-bottom,
+.hero__subtitle {
+    color: var(--color-2);
+}
+.menu-list,
+.footer-info ul,
+.socials {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-list,
+.category__name,
+.socials li {
+    font-size: 25px;
+
+}
+.hero_link,
+.category__item,
+.footer-touch form {
+    margin-top: 20px;
+}
+
+
+.nav-container {
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    display: none; 
+}
+.menu{
+    background: var(--bg-color-2);
+    height: 100vh;
+    width: 100vw;
+}
+.menu-list li{
+    margin: 20px 0;
+}
+
+.menu-close {
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: 0;
+    font-size: 30px;
+}
+.header {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 98;
+    padding: 10px;
+    /* background-color: #02141a; */
+}
+.header img {
+    height: 25px;
+}
+main {
+    margin-bottom: 70px;
+}
+.hero {
+    position: relative;
+}
+.hero__overlay {
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.hero__image img {
+    width: 100%;
+    height: 100%;
+}
+.hero__content {
+    z-index: 2;
+}
+.hero__subtitle {
+    font-size: 18px;
+}
+.hero__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.hero_link {
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.category{ 
+    margin: 30px 0;
+}
+.category__line {
+    width: 120px;
+    margin: auto;
+    border-top: 1px solid var(--color-2);
+}
+.category__title { 
+    margin-top: 30px;
+    font-size: 22px;
+}
+.category__name { 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-info { 
+    border-top: 1px solid var(--color-1);
+    border-bottom: 1px solid var(--color-1);
+    padding: 35px 10px;
+}
+.footer-info h2 { 
+    font-style: normal;
+    font-weight: 400;
+}
+.footer-info ul li {
+    margin: 10px 0;
+}
+.footer-info button:hover{ 
+    opacity: 0.8;
+}
+.footer-touch input{
+    padding: 5.5px 10px;
+    margin-bottom: 15px;
+    background-color: var(--bg-color-1)
+}
+.footer-touch button{ 
+    background-color: transparent;
+    padding: 5px 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.footer-bottom { 
+    padding: 35px 10px;
+}
+.socials li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.copyright {
+    margin: 20px 0;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: none;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 9em;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
+}
+::-webkit-scrollbar-button:vertical:start:decrement,
+::-webkit-scrollbar-button:vertical:end:increment {
+    background: linear-gradient(300deg, #02141a 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(60deg, #02141a 40%, rgba(0, 0, 0, 0) 41%), linear-gradient(180deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: #f6f8f4;
+}

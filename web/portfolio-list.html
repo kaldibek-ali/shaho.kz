@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="kk">
+    <head>
+        <meta charset="utf-8"> 
+        <title>Портфолио</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/flexbox-grid.css">
+        <link rel="stylesheet" href="libs/fontawesome/css/all.min.css">
+        <link rel="icon" href="icons/aa.svg">
+    </head>
+    <body>
+
+        <div class="nav-container">
+            <nav class="menu d-flex justify-content-center align-items-center">
+                <ul class="menu-list">
+                    <li><a href="index.html">Басты бет</a></li>
+                    <li><a href="portfolio-list.html">Портфолио</a></li>
+                    <li><a href="about-me.html">Мен жайлы</a></li>
+                    <li><a href="contact.html">Байланыс</a></li>
+                </ul>
+                <button class="menu-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </nav>
+        </div>
+
+        <header class="header container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <img src="images/menu-button.png" class="menu-open">
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="tabs row align-items-center">
+                <div class="tabs__title col-12 col-lg-6">
+                    Жұмыстар
+                </div>
+                <div class="col-12 col-lg-6 tabs__list-wrapper">
+                    <ul class="tabs__list d-flex justify-content-between">
+                        <li><a href="">Барлығы</a></li>
+                        <li><a href="">Коммерциялық</a></li>
+                        <li class="active"><a href="">Интерьер</a></li>
+                        <li><a href="">Экстерьер</a></li>
+                        <li><a href="">Ландшафт</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="portfolio__list row">
+                <div class="portfolio__item col-12 col-sm-6 col-md-4">
+                    <a>
+                        <img class="portfolio__image" src="images/portfolio-list/01.jpg" alt="First">
+                        <h2 class="portfolio__title">Ас болме</h2>
+                    </a>
+                </div>
+                <div class="portfolio__item col-12 col-sm-6 col-md-4">
+                    <a>
+                        <img class="portfolio__image" src="images/portfolio-list/02.jpg" alt="First">
+                        <h2 class="portfolio__title">Конак болме</h2>
+                    </a>
+                </div>
+                <div class="portfolio__item col-12 col-sm-6 col-md-4">
+                    <a href="portfolio-details.html">
+                        <img class="portfolio__image" src="images/portfolio-list/03.jpg" alt="First">
+                        <h2 class="portfolio__title">Жатын болме</h2>
+                    </a>
+                </div>
+                <div class="portfolio__item col-12 col-sm-6 col-md-4">
+                    <a>
+                        <img class="portfolio__image" src="images/portfolio-list/04.jpg" alt="First">
+                        <h2 class="portfolio__title">Балалар болмесы</h2>
+                    </a>
+                </div>
+                <div class="portfolio__item col-12 col-sm-6 col-md-4">
+                    <a>
+                        <img class="portfolio__image" src="images/portfolio-list/05.jpg" alt="First">
+                        <h2 class="portfolio__title">Санузла</h2>
+                    </a>
+                </div>
+                
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="footer-info container">
+                <div class="row justify-content-end">
+                    <div class="footer-contact col-12 col-md-6 col-lg-4">
+                        <h2>Байланыс</h2>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="contact.html#maps">
+                                        Алматы қаласы,<br>
+                                    Байзақ көшесі,<br> 
+                                    16 үй, офис №21
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="tel:+7 (777) 000-00-00">
+                                        +7 (777) 000-00-00
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:shaho@mail.ru">
+                                        kaldybek@shaho.kz
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-menu col-12 col-md-6 col-lg-4">
+                        <h2>Мәзір</h2>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="index.html">
+                                        Басты бет
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="portfolio-list.html">
+                                        Жұмыстар
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about-me.html">
+                                        Мен жайлы
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Байланыс
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-touch col-12 col-lg-4">
+                        <h2>Хабарға шығу</h2>
+                        <span>
+                            Менімен хабарға шығу үшін келесі формаға өз электронды  мекенжайын жазыңыз. Мен қысқа уақыт аралығында хабарға шығамын.
+                        </span>
+                        <form action="">
+                            <input type="text" placeholder="Электронды пошта">
+                            <button>Жөнелту</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom container">
+                <div class="row justify-content-between align-items-center">
+                    <a href="index.html" class="col-12  col-md-4">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                    <div class="col-12 col-md-4 d-flex justify-content-md-center"><!--copyright--> 
+                        <div class="copyright">
+                            © 2021 Shaho LLC
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul class="socials d-flex justify-content-md-end">
+                            <li>
+                                <a href="https://vk.com/shaho.kz">
+                                    <i class="fab fa-vk"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/shaho.kz">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/77770000000">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://facebook.com/shaho.kz">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
